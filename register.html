@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ticket Registration page</title>
+<style>
+    table{
+	 margin-left:500px;
+	} 
+	#effect{
+      margin-left:600px
+	}
+	body{
+	 background-color:rgb(164,227,185);
+	}
+ </style>
+</head>
+<body>
+  <CENTER>
+	<h2><I>TICKET RESERVATION PAGE</I></h2>
+  </CENTER>
+  <BR /><BR />
+  <form action="./submit.html">
+    <table>
+     <tr><td align="center" colspan="2"><input type="image" src="./images.jpg" alt="train" height="100" width="100"></td></tr>
+     <tr><td>NAME</td><td><input type="text"></td></tr>
+	 <tr><td>EMAIL</td><td><input type="email"></td></tr>
+	 <tr><td>MOBILE NUMBER</td><td><input type="tel" pattern="[0-9]{10}"></td></tr>
+	 <tr><td>GENDER</td><td>
+	 Male<input type="radio" name="gender" value="male">
+	 Female<input type="radio" name="gender" value="female"></td></tr>
+	 <tr><td>AGE</td><td><input type="number" min="1" step=1></td></tr>
+	 <tr><td>DATE OF JOURNEY</td><td><input type="date"></td></tr>
+	 <tr><td>TRAVEL TYPE</td><td>
+	 <input type="checkbox">AC
+	 <input type="checkbox">NON-AC</td></tr>
+	 <tr><td>TRAVEL TIME</td><td><input type="time"></td></tr>
+	 <tr><td>SELECT FAVORITE COLOUR</td><td><input type="color"></td></tr>
+	 <tr><td>UPLOAD ID PROOF</td><td><input type="file" name="myfile"></td></tr>
+	 </table>
+	 <br /> <br />
+	 <div id="effect">
+		<input type="submit" value="submit">
+		<input type="reset" value="reset">
+	 </div>	
+  </form>
+</body>
+</html>
